@@ -10,4 +10,8 @@ private  int name;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
+    void getData()
+    {
+        System.out.print("hello");
+    }
 }
